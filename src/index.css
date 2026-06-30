@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Leaflet Dark Theme Overrides */
+.leaflet-popup-content-wrapper {
+  background: #090d16 !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.7) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #090d16 !important;
+  border: 1px solid #1e293b !important;
+}
+
+.custom-selected-pin-icon, .custom-issue-pin, .custom-user-gps-dot, .custom-route-step-pin {
+  background: transparent !important;
+  border: none !important;
+}

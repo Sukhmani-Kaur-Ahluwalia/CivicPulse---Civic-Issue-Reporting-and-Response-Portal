@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "u_1782668774995",
+      "username": "rajesh",
+      "fullName": "rajesh",
+      "role": "citizen",
+      "points": 60,
+      "badges": [
+        "Civic Solver"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "u_1782669315838",
+      "username": "commissioner",
+      "fullName": "Municipal Manager",
+      "role": "manager",
+      "points": 15,
+      "badges": [],
+      "language": "en"
+    }
+  ],
+  "issues": [
+    {
+      "id": "iss_local_1_1782668724335",
+      "title": "Severe Road Fissures & Potholes",
+      "description": "Deep surface cracking along the primary transit lanes. High hazard risk for small vehicles.",
+      "category": "Pothole & Roads",
+      "status": "reported",
+      "imageUrl": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&w=600&q=80",
+      "latitude": 30.335014301077262,
+      "longitude": 77.99782924257057,
+      "plusCode": "8FVC303780+L1",
+      "vulnerabilityWeight": 7,
+      "conflictFlag": false,
+      "reporterId": "system",
+      "reporterName": "AI Local Scanner",
+      "votes": [
+        "u_1782668774995"
+      ]
+    },
+    {
+      "id": "iss_local_2_1782668724336",
+      "title": "Subsurface Pressurized Leakage",
+      "description": "Significant surface water pooling indicating a sub-surface pipe joint rupture.",
+      "category": "Water & Leakage",
+      "status": "verified",
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80",
+      "latitude": 30.328714301077262,
+      "longitude": 78.00712924257057,
+      "plusCode": "8FVC303780+L2",
+      "vulnerabilityWeight": 9,
+      "conflictFlag": false,
+      "reporterId": "system",
+      "reporterName": "AI Local Scanner",
+      "votes": [
+        "commissioner",
+        "u_1782668774995"
+      ]
+    },
+    {
+      "id": "iss_local_3_1782668724336",
+      "title": "Broken Streetlight & Dark Patch",
+      "description": "Major streetlight cluster is offline. Path is highly unsafe during late evening hours.",
+      "category": "Streetlights",
+      "status": "reported",
+      "imageUrl": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=600&q=80",
+      "latitude": 30.332714301077264,
+      "longitude": 78.00492924257057,
+      "plusCode": "8FVC303780+L3",
+      "vulnerabilityWeight": 6,
+      "conflictFlag": false,
+      "reporterId": "system",
+      "reporterName": "AI Local Scanner",
+      "votes": []
+    },
+    {
+      "id": "iss_1782669110172",
+      "title": "Dump of waste near Panchsheel Park",
+      "description": "Hazardous waste on roads",
+      "category": "Waste Management",
+      "status": "resolved",
+      "imageUrl": "https://images.unsplash.com/photo-1594913785162-e6785b523cb3?auto=format&fit=crop&w=600&q=80",
+      "latitude": 30.33,
+      "longitude": 78.035,
+      "plusCode": "8FVC303780+X1",
+      "vulnerabilityWeight": 5,
+      "conflictFlag": false,
+      "reporterId": "u_1782668774995",
+      "reporterName": "rajesh",
+      "votes": [
+        "u_1782668774995"
+      ],
+      "createdAt": "2026-06-28T17:51:50.172Z",
+      "resolvedAt": "2026-06-28T17:59:23.213Z"
+    },
+    {
+      "id": "iss_1782670253033",
+      "title": "Uploaded Acoustic Analysis: ElevenLabs_Sudden_burst_of_water_from_a_pipe,_explosive_release.mp3",
+      "description": "AUTOMATED ACOUSTIC SENSOR DIAGNOSTIC: Analyzed uploaded record \"ElevenLabs_Sudden_burst_of_water_from_a_pipe,_explosive_release.mp3\". Detected anomalous escaping fluid signature at 135Hz pressure zones indicating potential early-stage subsurface waterline leakage.",
+      "category": "Water & Leakage",
+      "status": "reported",
+      "imageUrl": "https://images.unsplash.com/photo-1594913785162-e6785b523cb3?auto=format&fit=crop&w=600&q=80",
+      "latitude": 30.3421,
+      "longitude": 78.0561,
+      "plusCode": "8FVC303780+X3",
+      "vulnerabilityWeight": 8,
+      "conflictFlag": false,
+      "reporterId": "u_1782669315838",
+      "reporterName": "Municipal Manager",
+      "votes": [],
+      "createdAt": "2026-06-28T18:10:53.034Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch_local_1_1782668724336",
+      "department": "Water & Sewerage Board",
+      "task": "Sub-surface main pipeline excavation & weld check",
+      "location": "Main Street Crossing",
+      "latitude": 30.33531430107726,
+      "longitude": 77.99802924257057,
+      "date": "2026-07-25"
+    }
+  ]
+}
