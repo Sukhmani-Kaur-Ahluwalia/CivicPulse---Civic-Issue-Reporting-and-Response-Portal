@@ -17,30 +17,30 @@ CivicPulse is a civic issue reporting and municipal response platform. Citizens 
 10. **Gamification/Profile:** Citizens receive points and badges for reporting, verifying, and helping resolve civic issues, encouraging participation.
 
 # Technologies Used
-React 19 for the frontend UI.
-TypeScript for safer frontend and backend code.
-Vite for frontend development and production bundling.
-Express.js for backend API routes.
-Node.js for server runtime.
-Tailwind CSS for styling.
-Leaflet with OpenStreetMap/CARTO map tiles for interactive maps.
-Lucide React for UI icons.
-MongoDB support with local JSON fallback for persistence.
-Google Gemini API via @google/genai for AI-assisted triage, routing, and forecasting where configured.
+React 19 for the frontend UI.</br>  
+TypeScript for safer frontend and backend code.</br>  
+Vite for frontend development and production bundling.</br>  
+Express.js for backend API routes.</br>  
+Node.js for server runtime.</br>
+Tailwind CSS for styling.</br>
+Leaflet with OpenStreetMap/CARTO map tiles for interactive maps.</br>
+Lucide React for UI icons.</br>
+MongoDB support with local JSON fallback for persistence.</br>
+Google Gemini API via @google/genai for AI-assisted triage, routing, and forecasting where configured.</br>
 
 # Google Technologies Utilized
-Google Gemini API through the @google/genai SDK for AI-assisted civic triage, route optimization, and budget forecasting.
-Google Cloud Run is the recommended deployment target because it can host the Node/React full-stack app and scale to zero for low-traffic/free-tier-friendly usage.
-Google Cloud Build can build the app directly from source during Cloud Run deployment.
+Google Gemini API through the @google/genai SDK for AI-assisted civic triage, route optimization, and budget forecasting.</br>
+Google Cloud Run is the recommended deployment target because it can host the Node/React full-stack app and scale to zero for low-traffic/free-tier-friendly usage.</br>
+Google Cloud Build can build the app directly from source during Cloud Run deployment.</br>
 
 # Open Source Libraries/APIs Used
-React: UI framework.
-Vite: frontend build tool.
-Express.js: backend web server.
-Leaflet: interactive map rendering.
-OpenStreetMap map data and CARTO tile styling: map display layer.
-Tailwind CSS: utility-first styling.
-Lucide React: icon library.
-MongoDB Node.js driver: database connectivity.
-dotenv: environment variable loading.
-esbuild/tsx: TypeScript build and runtime tooling.
+React: UI framework.</br>
+Vite: frontend build tool.</br>
+Express.js: backend web server.</br>
+Leaflet: interactive map rendering.</br>
+OpenStreetMap map data and CARTO tile styling: map display layer.</br>
+Tailwind CSS: utility-first styling.</br>
+Lucide React: icon library.</br>
+MongoDB Node.js driver: database connectivity.</br>
+dotenv: environment variable loading.</br>
+esbuild/tsx: TypeScript build and runtime tooling.</br>
